@@ -27,9 +27,10 @@ int main(int argc, char* argv[]){
     sprintf( pid, "%d",(int)getpid() );
     sleep(10);
 
-    if( i%2 == 0)
+    if( i%2 == 1)
     {
-        execl("./sustituto", "./sustituto", pid, NULL );
+        printf("Se hace sustitucion");
+        execl("./sustitonodo", "./sustitonodo", pid, NULL );
     }     
     
     while(1);

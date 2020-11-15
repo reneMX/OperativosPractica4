@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-main(int argc,char **argv){
+void main(int argc,char **argv){
      char cadena[50]="Hola mundo "; 
      strcat(cadena, argv[1]);
      strcat(cadena, " ");

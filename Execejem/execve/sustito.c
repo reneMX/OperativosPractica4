@@ -14,5 +14,5 @@ void main(int argc, char *argv[], char * envp[])
         printf("envp[%d]=%s\n", i, envp[i]);
     }
 
-  //while(1);
+  while(1);
 }

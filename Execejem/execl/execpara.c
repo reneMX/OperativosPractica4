@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<unistd.h>
-main(){
+void main(){
       char* arg=" Sistemas Operativos";
       int z= 50;
       char * arg3= "esto es una prueba";
